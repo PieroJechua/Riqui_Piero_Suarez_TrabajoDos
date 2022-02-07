@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Head: Cerebro del proyecto -->
+    <head>
+
+        <!-- Meta -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- viewport: Permite el responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- estilos CSS -->
+        <link rel="stylesheet" href="estilos/estilos.css">
+
+        <!-- Titulo del documento -->
+        <title>Document</title>
+
+    </head>
+    <!-- Fin del Head: Cerebro del proyecto -->
+
+    <!-- Body: Cuerpo del proyecto -->
+    <body>
+
+        <!-- Menu del html: Se repite en cada pagina -->
+        <nav class="navbar navbar-expand-lg navbar-dark position-fixed menu">
+
+            <!-- Contenedor del menu -->
+            <div class="container-fluid">
+                
+                <!-- Menu Titulo -->
+
+                <a class="navbar-brand" href="index.html">
+                    <img src="imagenes/LogoRiqui.png" alt="" width="30" height="30" class="d-inline-block align-text-top menu-logo tamaño-logo"> <strong>Riqui</strong>
+                </a>
+
+                <!-- Menu hamburgueza: Se habilita en pantalla reducida-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <!-- Opciones del menu-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <!--Navegador de páginas-->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 lista-menu">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="paginas/productos.html"> Productos </a>
+                        </li>
+
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Conócenos
+                            </a>
+                            <!-- dropdown: Lista deplegable "Conócenos"-->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="paginas/historia.html"> Historia </a></li>
+                                <li><a class="dropdown-item" href="paginas/rentabilidad.html"> Rentabilidad </a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="paginas/FAQ.html"> Preguntas Frecuentes </a></li>
+                                <li><a class="dropdown-item" href="paginas/contactanos.html"> Contáctanos </a></li>
+                            </ul>
+                            <!-- Fin de dropdown: Lista deplegable "Conócenos"-->
+                        </li>
+                    </ul>
+                    <!-- Fin de navegador de páginas-->
+                
+                    <!-- Botones derecha-->
+                    <div class="d-flex">
+
+                        <!--inicio de sesión-->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ingresar-menu">
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Ingresar
+                                </a>
+                                <!-- dropdown: Lista deplegable "inicio de sesion"-->
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="paginas/login.html"> Iniciar Sesión </a></li>
+                                    <li><a class="dropdown-item" href="paginas/signin.html"> Regístrate </a></li>
+                                </ul>
+                                <!-- Fin de dropdown: Lista deplegable "inicio de sesion"-->
+                            </li>
+                        </ul>
+                        <!-- Fin de inicio de sesión-->
+
+                        <!--Botón Whatsapp-->
+                        <button class="btn btn-success" type="submit"> <a href= https://api.whatsapp.com/send?phone=51963775441&text=Hola%20Riqui%2C%0ACu%C3%A9ntame%20mucho%20m%C3%A1s%20para%20ser%20Riqui target="_blank" rel="noopener noreferrer"> Whatsapp </a> </button>
+                        <!--fin de Botón Whatsapp-->
+                    </div>
+                    <!-- Fin de botones derecha-->
+
+                </div>
+            </div>
+            <!-- Fin del contenedor del menu -->
+        </nav>
+        <!-- Fin del menu del html: Se repite en cada pagina -->
+
+        <!-- Header: Encabezado texto-->        
+        <header class="container-fluid header-background">
+
+            <div class="row justify-content-center">
+                <h1 class="text-center col-7 header-h1"> <strong> Riqui </strong></h1>
+            </div>
+            
+            <figure class="row justify-content-center">
+
+                <blockquote class="blockquote col-6">
+                    <p class="text-center header-slogan"> Aprendemos de finanzas y hacemos dinero para una vida increiblemente Riqui </p>
+                </blockquote>
+
+                <figcaption class="blockquote-footer text-center col-7 header-slogan">
+                    Juan Perez - <cite title="Source Title">Socio Fundador</cite>
+                </figcaption>
+
+            </figure>
+
+        </header>
+        <!-- Fin del Header: Encabezado texto-->    
+
+        <!-- Sección: Motivador de lectura-->
+        <section>
+            <br>
+            <h3 class="text-center">
+                Motivador central: Por qué estas viendo esto
+            </h3>
+            <p class="text-center">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus nesciunt quod quos porro laboriosam! .
+            </p>
+            <br>
+        </section>
+        <!-- Fin de Sección: Motivador de lectura-->
+
+        <!-- Main: contenido razones y FAQ-->
+        <main class="container-fluid main">
+
+            <!-- Main: razones-->
+            <h4 class="text-center">
+                Razones que caracteria a Riqui
+            </h4>
+            <br>
+            <div class="row">
+
+                <div class="col-md-3 col-sm-6 main-razones highlight">
+                    <img src="imagenes/cliente.png" alt="Cliente" class="img-fluid mx-auto d-block">
+                    <h5 class="text-center"> Amamos al cliente</h5>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                </div>
+
+                <div class="col-md-3 col-sm-6 main-razones">
+                    <img src="imagenes/Corazon.png" alt="Corazón" class="img-fluid mx-auto d-block">
+                    <h5 class="text-center"> Amamos lo que hacemos</h5>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                </div>
+
+                <div class="col-md-3 col-sm-6 main-razones">
+                    <img src="imagenes/conocimiento.png" alt="Cerebro" class="img-fluid mx-auto d-block">
+                    <h5 class="text-center"> Aprendemos y enseñamos</h5>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                </div>
+
+                <div class="col-md-3 col-sm-6 main-razones">
+                    <img src="imagenes/Tecnologia.png" alt="Tecnologia" class="img-fluid mx-auto d-block">
+                    <h5 class="text-center"> 100% digitales </h5>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+                </div>
+
+            </div>
+
+            <!-- Main: FAQ-->
+            <div class="FAQ">
+                <h4 class="text-center">
+                    Preguntas Frecuentes
+                </h4>
+                <br>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-5 col-sm-10 main-FAQ">
+                        <h5> <img src="imagenes/Moneda.png" alt="Moneda"> Amamos al cliente</h5>
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, velit ipsum unde animi repellat soluta placeat consequatur ex exercitationem inventore dolorum dolorem. Laborum vitae nostrum doloremque. Qui assumenda rem id?</p>
+                    </div>
+
+                    <div class="col-md-5 col-sm-10 main-FAQ">
+                        <h5> <img src="imagenes/Moneda.png" alt="Moneda"> Amamos al cliente</h5>
+                        <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores facilis voluptate quas natus mollitia excepturi aliquam, cumque vitae fugiat maiores ea iusto alias necessitatibus dolore voluptas adipisci itaque placeat expedita?</p>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-5 col-sm-10 main-FAQ">
+                        <h5> <img src="imagenes/Moneda.png" alt="Moneda"> Amamos al cliente</h5>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laudantium tempore repellat molestiae culpa distinctio ea quasi hic laborum. Voluptate fuga rerum atque. Accusantium modi et dolore eligendi. Ducimus, assumenda?</p>
+                    </div>
+
+                    <div class="col-md-5 col-sm-10 main-FAQ">
+                        <h5> <img src="imagenes/Moneda.png" alt="Moneda"> Amamos al cliente</h5>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ut repellat quam vero accusamus quasi inventore illum, corporis totam obcaecati vitae nulla fuga ipsa praesentium? Nemo soluta id ad cumque.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Fin de Main: contenido razones y FAQ-->
+
+        <!-- Section: contenido prodcutos-->
+        <section class="container-fluid productos">
+            <h4 class="text-center">
+                Nuestro productos
+            </h4>
+
+            <div class="row justify-content-center section-producto">
+                <div class="col-md-4 col-sm-10">
+                    <h5>
+                        Riqui Regular
+                    </h5>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                </div>
+
+                <div class="col-md-5 col-sm-10">
+                    <img src="imagenes/RiquiRegular.png" alt="Riqui regular" class="img-fluid mx-auto d-block">
+                </div>  
+            </div>
+
+            <div class="row justify-content-center section-producto">
+                <div class="col-md-4 col-sm-10">
+                    <h5>
+                        Riqui Premium
+                    </h5>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                </div>
+
+                <div class="col-md-5 col-sm-10">
+                    <img src="imagenes/RiquiPremium.png" alt="Riqui premium"  class="img-fluid mx-auto d-block">
+                </div>  
+            </div>
+        </section>
+
+        <!-- Section: contenido clientes opiniones-->
+        <section class="container-fluid">
+
+            <h4 class="text-center"> Una comunidad de casi 5 estrellas </h4>
+                <p class="text-center"> Porque apostamos por mejorar al menos un 1% cada día </p>
+
+            <!-- Estructura de estrellas -->
+            <div class="estrellas">
+                <img src="imagenes/Estrella.png" alt="Estrella amarilla">
+                <img src="imagenes/Estrella.png" alt="Estrella amarilla">
+                <img src="imagenes/Estrella.png" alt="Estrella amarilla">
+                <img src="imagenes/Estrella.png" alt="Estrella amarilla">
+                <img src="imagenes/Estrella.png" alt="Estrella amarilla">         
+            </div>
+
+            <!-- cajas de comentarios -->
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+    
+                  <div class="carousel-item active comentariosBox ">
+                    <img src="imagenes/Hombre 2.jfif" alt="Foto de hombre sonriendo" class="img-fluid mx-auto d-block">
+                    <p class="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+    
+                  <div class="carousel-item comentariosBox ">
+                    <img src="imagenes/Hombre 2.jfif" alt="Foto de hombre sonriendo" class="img-fluid mx-auto d-block">
+                    <p class="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+    
+                  <div class="carousel-item comentariosBox">
+                    <img src="imagenes/Hombre 2.jfif" alt="Foto de hombre sonriendo" class="img-fluid mx-auto d-block">
+                    <p class="text-center"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+    
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+        <!-- Pie de página  -->
+        <footer id="footer" class="top-space">
+
+            <div class="footer1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 widget">
+                            <h3 class="widget-title">Contacto</h3>
+                            <div class="widget-body">
+                                <p>+01 999 777 888<br>
+                                    <a href="mailfalso@gmail.com">riqui@gmail.com</a><br>
+                                    <br>
+                                    Av.Javier Prado Oeste 527, San Isidro, Lima Perú
+                                </p>	
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 widget">
+                            <h3 class="widget-title">Redes Sociales</h3>
+                            <div class="widget-body Footer-redes">
+                                <img src="imagenes/Facebook.png" alt="Facebook" class="facebook">
+                                <img src="imagenes/Insta.png" alt="Instagram" class="Instagram">
+                            </div>
+
+                        </div>
+                        
+                    </div> 
+                </div>
+            </div>
+    
+            <div class="footer2">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-md-5 widget">
+                            <div class="widget-body">
+                                <p class="simplenav">
+                                    <a href="index.html">Home</a> | 
+                                    <a href="paginas/productos.html">Productos</a> |
+                                    <a href="paginas/FAQ.html">Preguntas frecuentes</a> ||
+                                    <b><a href="paginas/signin.html">Iniciar sesión</a></b>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 widget">
+                            <div class="widget-body">
+                                <p>
+                                    <strong> Derechos reservados Riqui SAC</strong> 
+                                </p>
+                            </div>
+                        </div>
+
+                    </div> 
+                </div>
+            </div>
+    
+        </footer>	
+        <!-- Fin del Pie de página  -->
+
+
+
+        <!-- Enlace a JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+
+        <!-- Fin del enlace a JS -->
+
+    </body>
+    <!-- Fin del Body: Cuerpo del proyecto -->
+
+</html>
